@@ -23,3 +23,4 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 
 
 Route::get('/admin', [App\Http\Controllers\AdminControlle::class, 'index'])->name('admin');
+Route::get('/post', [App\Http\Controllers\PostController::class, 'show'])->name('post');
