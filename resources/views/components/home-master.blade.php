@@ -37,11 +37,11 @@
           </li>
           @if(Auth::check())
           <li class="nav-item">
-            <a class="nav-link" href="{{route('admin')}}">Admin</a>
+            <a class="nav-link" href="{{route('admin.index')}}">Admin</a>
           </li>
           @else
           <li class="nav-item">
-            <a class="nav-link" href="/new-cms-system/public/login">Login</a>
+            <a class="nav-link" href="/cms/public/login">Login</a>
           </li>
           @endif
           <li class="nav-item">
