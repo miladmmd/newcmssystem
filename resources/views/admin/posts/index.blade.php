@@ -7,6 +7,7 @@
         <div class="alert alert-success">{{session('post-created-message')}}</div>
         @elseif(session('post-created-updated'))
         <div class="alert alert-success">{{session('post-created-updated')}}</div>
+        
         @endif
         <div class="card shadow mb-4">
             <div class="card-header py-3">

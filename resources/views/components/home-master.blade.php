@@ -41,7 +41,10 @@
           </li>
           @else
           <li class="nav-item">
-            <a class="nav-link" href="/cms/public/login">Login</a>
+            <a class="nav-link" href="/cc/public/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/cc/public/register">Register</a>
           </li>
           @endif
           <li class="nav-item">
