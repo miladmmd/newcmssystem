@@ -126,7 +126,12 @@
                     <td>{{$role -> id}}</td>
                     <td>{{$role -> name}}</td>
                     <td>{{$role -> slug}}</td>
-                    <td><button type="button" name=""  id="" class="btn btn-primary" >Attach</button></td>
+                    <td>
+                      <form action="{{route('')}}" method="post">
+                        @method('PUT')
+                        @csrf
+                      </form>
+                    </td>
                     <td><button type="button" name="" id="" class="btn btn-danger" >Detach</button></td>
                   </tr>
                   @endforeach
